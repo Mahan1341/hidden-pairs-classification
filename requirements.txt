@@ -1,0 +1,6 @@
+# Versions printed by the saved successful competition run.
+# scikit-learn installs its threadpoolctl dependency, which solution.py uses.
+numpy==1.26.4
+scipy==1.13.1
+pandas==2.2.3
+scikit-learn==1.4.2
