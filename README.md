@@ -80,8 +80,3 @@ If the original `submission_D_PCA128_LogPCA128_63_27_10.csv` is also present, th
 
 The implementation uses four numerical-library threads, random seed 42, and geometry cross-fitting seed 137. NumPy, SciPy, pandas and scikit-learn versions are pinned to the versions printed in the successful historical run. The complete model has not been retrained during repository preparation because the input data are not included.
 
-## Project provenance
-
-This was a **CHIMIN team course project**, published here as part of Vladimir Garanin's portfolio. His documented contribution was D v2 and ensemble research, CV/validation, the reproducible implementation, and final CSV verification.
-
-The executable solution is preserved from `CHIMIN_Moodle_final.ipynb`. Repository preparation added documentation, dependency pins, file exclusions and a script export, and removed submission-form placeholders and machine-specific output paths. AI assistance was used during the work and repository preparation. The repository presents a course competition solution; it does not claim a novel learning algorithm or a production deployment.
