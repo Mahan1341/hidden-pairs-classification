@@ -1,0 +1,26 @@
+# Competition data and prediction files
+*.csv
+*.tsv
+*.npy
+*.npz
+*.pkl
+*.joblib
+*.zip
+data/
+
+# Local Python and notebook state
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local credentials and IDE files
+.env
+.env.*
+kaggle.json
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

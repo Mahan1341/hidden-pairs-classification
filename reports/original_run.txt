@@ -1,0 +1,37 @@
+Historical stdout from the saved final notebook (September 2026).
+The machine-specific output path has been replaced by the filename.
+This is not a new execution during repository preparation.
+
+numpy: 1.26.4
+scipy: 1.13.1
+pandas: 2.2.3
+scikit-learn: 1.4.2
+Data: (2520, 512) (560, 512) (1116, 512)
+D v2 fitted: 36.73s
+D support vectors: 1481
+
+VALIDATION REPRODUCTION
+=================================================================
+D v2                 actual=0.95025510 expected=0.95025510
+PCA128               actual=0.95061224 expected=0.95061224
+Log-PCA128           actual=0.95237245 expected=0.95237245
+Original 70/30       actual=0.95397321 expected=0.95397321
+Final 63/27/10       actual=0.95454082 expected=0.95454082
+Validation reproduction: PASS
+
+ORIGINAL SUBMISSION COMPARISON
+Reference: submission_D_PCA128_LogPCA128_63_27_10.csv
+Maximum absolute difference: 2.22044604925e-16
+Exact submission reproduction: PASS
+
+FINAL CHECK
+=================================================================
+Output: final_submission.csv
+Rows: 1116
+Validation: PASS
+Original CSV verified: True
+Test inference: 2.75s
+Full runtime: 44.62s
+CPU 15-minute target: PASS
+Inference 2-minute target: PASS
+No cache, pretrained weights, external data or test fitting.

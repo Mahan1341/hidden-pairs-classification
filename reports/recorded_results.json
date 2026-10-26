@@ -1,0 +1,46 @@
+{
+  "competition": {
+    "name": "Week 03: Hidden Pairs",
+    "url": "https://www.kaggle.com/competitions/week-03-hidden-pairs",
+    "metric": "ROC-AUC",
+    "team": "CHIMIN"
+  },
+  "final_model": {
+    "D_v2": 0.63,
+    "PCA128": 0.27,
+    "Log_PCA128": 0.1,
+    "aggregation": "percentile ranks per scored batch"
+  },
+  "recorded_results": {
+    "cv_5fold_reported": 0.9380543,
+    "validation": 0.95454082,
+    "kaggle_public": 0.94826,
+    "kaggle_private": 0.94832,
+    "private_rank": 14,
+    "teams_in_private_leaderboard_export": 94
+  },
+  "recorded_local_runtime_seconds": {
+    "total": 44.62,
+    "test_inference": 2.75
+  },
+  "recorded_environment": {
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.4.2",
+    "python": "not recorded in source notebook"
+  },
+  "provenance": {
+    "implementation_and_validation": "CHIMIN_Moodle_final.ipynb, executable cell 3 and its saved stdout",
+    "cv_and_public_score": "CHIMIN_Moodle_final.ipynb, recorded experiment summary",
+    "private_score_and_rank": "CHIMIN row in week-03-hidden-pairs-privateleaderboard-2026-09-30T11_31_57.zip",
+    "recording_note": "Historical results; full competition data run was not repeated during repository preparation.",
+    "source_executable_sha256": "0b0c26e24842854586db30a6c621c7214156686dc8d0fce4ecdd2bc4b8a9f244"
+  },
+  "limitations": [
+    "Reported CV summary is retained as 5-fold CV, not relabeled as pooled OOF.",
+    "The standalone final script fits the fixed model on all train rows; it does not rerun the historical outer CV experiment.",
+    "Validation was consulted repeatedly during research and is not an untouched final holdout.",
+    "Percentile ranks depend on the batch being scored and are not calibrated probabilities."
+  ]
+}
